@@ -6,7 +6,7 @@ environment {
      registry = "${dockerCreds_USR}/vatcal"
      registryCredentials = "dockerhub_login"
      dockerImage = ""
-     TF_VAR_gcp_project = "<your project ID from qwiklabs>"
+     TF_VAR_gcp_project = "qwiklabs-gcp-04-bdad45405328"
      TF_VAR_docker_registry = "${registry}"
  }
 
