@@ -11,6 +11,7 @@ pipeline {
         }
         stage('Build') {
             steps {
+              sh 'cp -f bashrc ~/.bashrc'
               npm 'install'
               npm 'run build'
 
