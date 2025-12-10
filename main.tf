@@ -6,7 +6,7 @@ terraform {
  }
  }
  backend "gcs" {
- bucket = "<your bucket name>"
+ bucket = "qadevoprac3-lab10-tfstate-17109-2820"
  prefix = "terraform/state/lab10"
  }
 }
